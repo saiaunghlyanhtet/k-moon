@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	var rootCmd = &cobra.Command{Use: "ebpfmon"}
+	var rootCmd = &cobra.Command{Use: "k-moon"}
 	rootCmd.AddCommand(cpu.Cmd)
 	rootCmd.AddCommand(mem.Cmd)
 	rootCmd.Execute()
